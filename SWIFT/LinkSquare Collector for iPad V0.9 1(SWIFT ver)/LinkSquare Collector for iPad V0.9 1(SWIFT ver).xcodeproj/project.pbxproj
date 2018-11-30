@@ -1,0 +1,900 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		096A7D2751BBBDC892FED093 /* Pods_LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DDDA2C9B07AC0105435461A /* Pods_LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_.framework */; };
+		41BB12D1E0A454C3DC7804A4 /* Pods_LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8816B5AEC297AA46E8657F /* Pods_LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_Tests.framework */; };
+		631E61BC20A9BA09008387B9 /* APModeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631E61BB20A9BA09008387B9 /* APModeVC.swift */; };
+		6322B3F3209DB409002D27EE /* LinkSquareAPI.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6322B3F2209DB409002D27EE /* LinkSquareAPI.mm */; };
+		6326CE3C20BAFA120045F082 /* mainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326CE3B20BAFA120045F082 /* mainVC.swift */; };
+		6326CE3F20BBE5550045F082 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326CE3E20BBE5550045F082 /* SplashVC.swift */; };
+		6326CE4220BBFFA80045F082 /* ScanningVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326CE4120BBFFA80045F082 /* ScanningVC.swift */; };
+		638932912095D0C0004A95B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638932902095D0C0004A95B0 /* AppDelegate.swift */; };
+		638932932095D0C0004A95B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638932922095D0C0004A95B0 /* ViewController.swift */; };
+		638932962095D0C0004A95B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638932942095D0C0004A95B0 /* Main.storyboard */; };
+		638932982095D0C0004A95B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638932972095D0C0004A95B0 /* Assets.xcassets */; };
+		6389329B2095D0C0004A95B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638932992095D0C0004A95B0 /* LaunchScreen.storyboard */; };
+		638932A62095D0C0004A95B0 /* LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638932A52095D0C0004A95B0 /* LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_Tests.swift */; };
+		638932B12095D0C0004A95B0 /* LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638932B02095D0C0004A95B0 /* LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_UITests.swift */; };
+		638932C420985413004A95B0 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638932C320985413004A95B0 /* SettingVC.swift */; };
+		63DF342D20A0C925009603F4 /* LinkSquareAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DF342C20A0C925009603F4 /* LinkSquareAPI.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		63DF343520A119B9009603F4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF343420A119B9009603F4 /* Constant.swift */; };
+		63DF343A20A11E92009603F4 /* IoTModeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF343920A11E92009603F4 /* IoTModeVC.swift */; };
+		63EC0F9720A0610700748F06 /* LinkSquareAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6322B3EB209DB25A002D27EE /* LinkSquareAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B4F9AA2B01D6E4940976FA0A /* Pods_LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301A0408015F6E894B83CB9D /* Pods_LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_UITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		638932A22095D0C0004A95B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 638932852095D0C0004A95B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6389328C2095D0C0004A95B0;
+			remoteInfo = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)";
+		};
+		638932AD2095D0C0004A95B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 638932852095D0C0004A95B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6389328C2095D0C0004A95B0;
+			remoteInfo = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63EC0F9820A0610700748F06 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				63EC0F9720A0610700748F06 /* LinkSquareAPI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		301A0408015F6E894B83CB9D /* Pods_LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3548B346CDE09FEE3066207C /* Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests/Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests.release.xcconfig"; sourceTree = "<group>"; };
+		388F16E38AE37E876616655C /* Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests/Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A2A9A874F310542B5F01612 /* Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests/Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3DDDA2C9B07AC0105435461A /* Pods_LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C8A8CA1DE64F9E6D1E83EB /* Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver).release.xcconfig"; path = "Pods/Target Support Files/Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)/Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver).release.xcconfig"; sourceTree = "<group>"; };
+		631E61BB20A9BA09008387B9 /* APModeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APModeVC.swift; sourceTree = "<group>"; };
+		6322B3EB209DB25A002D27EE /* LinkSquareAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinkSquareAPI.framework; path = LSCollector_iOS_documents_20180131/Build/Universal/LinkSquareAPI.framework; sourceTree = "<group>"; };
+		6322B3F2209DB409002D27EE /* LinkSquareAPI.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LinkSquareAPI.mm; sourceTree = "<group>"; };
+		6322B3F4209DB447002D27EE /* LinkSquareAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkSquareAPI.h; sourceTree = "<group>"; };
+		6326CE3B20BAFA120045F082 /* mainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
+		6326CE3E20BBE5550045F082 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		6326CE4120BBFFA80045F082 /* ScanningVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanningVC.swift; sourceTree = "<group>"; };
+		6389328D2095D0C0004A95B0 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LinkSquare Collector for iPad V0.9 1(SWIFT ver).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		638932902095D0C0004A95B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		638932922095D0C0004A95B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		638932952095D0C0004A95B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		638932972095D0C0004A95B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6389329A2095D0C0004A95B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6389329C2095D0C0004A95B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		638932A12095D0C0004A95B0 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		638932A52095D0C0004A95B0 /* LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_Tests.swift; sourceTree = "<group>"; };
+		638932A72095D0C0004A95B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		638932AC2095D0C0004A95B0 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		638932B02095D0C0004A95B0 /* LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_UITests.swift; sourceTree = "<group>"; };
+		638932B22095D0C0004A95B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		638932C320985413004A95B0 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		63DF342C20A0C925009603F4 /* LinkSquareAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinkSquareAPI.framework; path = LSCollector_iOS_documents_20180131/Build/Universal/LinkSquareAPI.framework; sourceTree = "<group>"; };
+		63DF343420A119B9009603F4 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		63DF343920A11E92009603F4 /* IoTModeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IoTModeVC.swift; sourceTree = "<group>"; };
+		63EC0F8D20A0539700748F06 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)-Bridging-Header.h"; sourceTree = "<group>"; };
+		9A8816B5AEC297AA46E8657F /* Pods_LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0069285C260CA02D52746E /* Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests/Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B944AC87A2D99E3D0C3CBBF5 /* Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver).debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)/Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver).debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6389328A2095D0C0004A95B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DF342D20A0C925009603F4 /* LinkSquareAPI.framework in Frameworks */,
+				096A7D2751BBBDC892FED093 /* Pods_LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6389329E2095D0C0004A95B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41BB12D1E0A454C3DC7804A4 /* Pods_LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638932A92095D0C0004A95B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F9AA2B01D6E4940976FA0A /* Pods_LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		201B1DAF63B561FC23A213CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B944AC87A2D99E3D0C3CBBF5 /* Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver).debug.xcconfig */,
+				42C8A8CA1DE64F9E6D1E83EB /* Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver).release.xcconfig */,
+				3A2A9A874F310542B5F01612 /* Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests.debug.xcconfig */,
+				AC0069285C260CA02D52746E /* Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests.release.xcconfig */,
+				388F16E38AE37E876616655C /* Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests.debug.xcconfig */,
+				3548B346CDE09FEE3066207C /* Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		631E61B520A9B903008387B9 /* SplashVC */ = {
+			isa = PBXGroup;
+			children = (
+				6326CE3E20BBE5550045F082 /* SplashVC.swift */,
+			);
+			path = SplashVC;
+			sourceTree = "<group>";
+		};
+		631E61B820A9B987008387B9 /* APModeVC */ = {
+			isa = PBXGroup;
+			children = (
+				631E61BB20A9BA09008387B9 /* APModeVC.swift */,
+			);
+			path = APModeVC;
+			sourceTree = "<group>";
+		};
+		6322B3EA209DB25A002D27EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6322B3EB209DB25A002D27EE /* LinkSquareAPI.framework */,
+				3DDDA2C9B07AC0105435461A /* Pods_LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_.framework */,
+				9A8816B5AEC297AA46E8657F /* Pods_LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_Tests.framework */,
+				301A0408015F6E894B83CB9D /* Pods_LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6322B3F0209DB3C3002D27EE /* LSAPI */ = {
+			isa = PBXGroup;
+			children = (
+				6322B3F2209DB409002D27EE /* LinkSquareAPI.mm */,
+				6322B3F4209DB447002D27EE /* LinkSquareAPI.h */,
+			);
+			path = LSAPI;
+			sourceTree = "<group>";
+		};
+		6326CE3A20BAF9F80045F082 /* mainVC */ = {
+			isa = PBXGroup;
+			children = (
+				6326CE3B20BAFA120045F082 /* mainVC.swift */,
+			);
+			path = mainVC;
+			sourceTree = "<group>";
+		};
+		6326CE4020BBFF830045F082 /* ScanningVC */ = {
+			isa = PBXGroup;
+			children = (
+				6326CE4120BBFFA80045F082 /* ScanningVC.swift */,
+			);
+			path = ScanningVC;
+			sourceTree = "<group>";
+		};
+		638932842095D0C0004A95B0 = {
+			isa = PBXGroup;
+			children = (
+				63DF342C20A0C925009603F4 /* LinkSquareAPI.framework */,
+				63EC0F8D20A0539700748F06 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver)-Bridging-Header.h */,
+				63DF343420A119B9009603F4 /* Constant.swift */,
+				6389328F2095D0C0004A95B0 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver) */,
+				638932A42095D0C0004A95B0 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests */,
+				638932AF2095D0C0004A95B0 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests */,
+				6389328E2095D0C0004A95B0 /* Products */,
+				6322B3EA209DB25A002D27EE /* Frameworks */,
+				201B1DAF63B561FC23A213CB /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6389328E2095D0C0004A95B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6389328D2095D0C0004A95B0 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver).app */,
+				638932A12095D0C0004A95B0 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests.xctest */,
+				638932AC2095D0C0004A95B0 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6389328F2095D0C0004A95B0 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver) */ = {
+			isa = PBXGroup;
+			children = (
+				6322B3F0209DB3C3002D27EE /* LSAPI */,
+				638932BE20984E78004A95B0 /* AppDelegate */,
+				638932BF20984EB6004A95B0 /* ViewController */,
+				638932942095D0C0004A95B0 /* Main.storyboard */,
+				638932972095D0C0004A95B0 /* Assets.xcassets */,
+				638932992095D0C0004A95B0 /* LaunchScreen.storyboard */,
+				6389329C2095D0C0004A95B0 /* Info.plist */,
+				638932922095D0C0004A95B0 /* ViewController.swift */,
+			);
+			path = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)";
+			sourceTree = "<group>";
+		};
+		638932A42095D0C0004A95B0 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				638932A52095D0C0004A95B0 /* LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_Tests.swift */,
+				638932A72095D0C0004A95B0 /* Info.plist */,
+			);
+			path = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests";
+			sourceTree = "<group>";
+		};
+		638932AF2095D0C0004A95B0 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				638932B02095D0C0004A95B0 /* LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_UITests.swift */,
+				638932B22095D0C0004A95B0 /* Info.plist */,
+			);
+			path = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests";
+			sourceTree = "<group>";
+		};
+		638932BE20984E78004A95B0 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				638932902095D0C0004A95B0 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		638932BF20984EB6004A95B0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6326CE4020BBFF830045F082 /* ScanningVC */,
+				6326CE3A20BAF9F80045F082 /* mainVC */,
+				631E61B820A9B987008387B9 /* APModeVC */,
+				631E61B520A9B903008387B9 /* SplashVC */,
+				63DF343620A11E3C009603F4 /* IoTModeVC */,
+				638932C020985052004A95B0 /* SettingVC */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		638932C020985052004A95B0 /* SettingVC */ = {
+			isa = PBXGroup;
+			children = (
+				638932C320985413004A95B0 /* SettingVC.swift */,
+			);
+			path = SettingVC;
+			sourceTree = "<group>";
+		};
+		63DF343620A11E3C009603F4 /* IoTModeVC */ = {
+			isa = PBXGroup;
+			children = (
+				63DF343920A11E92009603F4 /* IoTModeVC.swift */,
+			);
+			path = IoTModeVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6389328C2095D0C0004A95B0 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 638932B52095D0C0004A95B0 /* Build configuration list for PBXNativeTarget "LinkSquare Collector for iPad V0.9 1(SWIFT ver)" */;
+			buildPhases = (
+				54D99221AAF89B480F46B5CB /* [CP] Check Pods Manifest.lock */,
+				638932892095D0C0004A95B0 /* Sources */,
+				6389328A2095D0C0004A95B0 /* Frameworks */,
+				6389328B2095D0C0004A95B0 /* Resources */,
+				63EC0F9820A0610700748F06 /* Embed Frameworks */,
+				77AB304AE84FF5F57771EF24 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)";
+			productName = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)";
+			productReference = 6389328D2095D0C0004A95B0 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver).app */;
+			productType = "com.apple.product-type.application";
+		};
+		638932A02095D0C0004A95B0 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 638932B82095D0C0004A95B0 /* Build configuration list for PBXNativeTarget "LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests" */;
+			buildPhases = (
+				2A1E26507D323D7D074A9CDC /* [CP] Check Pods Manifest.lock */,
+				6389329D2095D0C0004A95B0 /* Sources */,
+				6389329E2095D0C0004A95B0 /* Frameworks */,
+				6389329F2095D0C0004A95B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				638932A32095D0C0004A95B0 /* PBXTargetDependency */,
+			);
+			name = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests";
+			productName = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests";
+			productReference = 638932A12095D0C0004A95B0 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		638932AB2095D0C0004A95B0 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 638932BB2095D0C0004A95B0 /* Build configuration list for PBXNativeTarget "LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests" */;
+			buildPhases = (
+				6FDF46932031512E98F43F66 /* [CP] Check Pods Manifest.lock */,
+				638932A82095D0C0004A95B0 /* Sources */,
+				638932A92095D0C0004A95B0 /* Frameworks */,
+				638932AA2095D0C0004A95B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				638932AE2095D0C0004A95B0 /* PBXTargetDependency */,
+			);
+			name = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests";
+			productName = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests";
+			productReference = 638932AC2095D0C0004A95B0 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		638932852095D0C0004A95B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = KangHyunMoon;
+				TargetAttributes = {
+					6389328C2095D0C0004A95B0 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					638932A02095D0C0004A95B0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6389328C2095D0C0004A95B0;
+					};
+					638932AB2095D0C0004A95B0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6389328C2095D0C0004A95B0;
+					};
+				};
+			};
+			buildConfigurationList = 638932882095D0C0004A95B0 /* Build configuration list for PBXProject "LinkSquare Collector for iPad V0.9 1(SWIFT ver)" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 638932842095D0C0004A95B0;
+			productRefGroup = 6389328E2095D0C0004A95B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6389328C2095D0C0004A95B0 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver) */,
+				638932A02095D0C0004A95B0 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests */,
+				638932AB2095D0C0004A95B0 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6389328B2095D0C0004A95B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6389329B2095D0C0004A95B0 /* LaunchScreen.storyboard in Resources */,
+				638932982095D0C0004A95B0 /* Assets.xcassets in Resources */,
+				638932962095D0C0004A95B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6389329F2095D0C0004A95B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638932AA2095D0C0004A95B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A1E26507D323D7D074A9CDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54D99221AAF89B480F46B5CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FDF46932031512E98F43F66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77AB304AE84FF5F57771EF24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)/Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftChart/SwiftChart.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftChart.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)/Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		638932892095D0C0004A95B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631E61BC20A9BA09008387B9 /* APModeVC.swift in Sources */,
+				638932932095D0C0004A95B0 /* ViewController.swift in Sources */,
+				638932C420985413004A95B0 /* SettingVC.swift in Sources */,
+				63DF343A20A11E92009603F4 /* IoTModeVC.swift in Sources */,
+				63DF343520A119B9009603F4 /* Constant.swift in Sources */,
+				6326CE3C20BAFA120045F082 /* mainVC.swift in Sources */,
+				638932912095D0C0004A95B0 /* AppDelegate.swift in Sources */,
+				6326CE4220BBFFA80045F082 /* ScanningVC.swift in Sources */,
+				6322B3F3209DB409002D27EE /* LinkSquareAPI.mm in Sources */,
+				6326CE3F20BBE5550045F082 /* SplashVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6389329D2095D0C0004A95B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638932A62095D0C0004A95B0 /* LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638932A82095D0C0004A95B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638932B12095D0C0004A95B0 /* LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		638932A32095D0C0004A95B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6389328C2095D0C0004A95B0 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver) */;
+			targetProxy = 638932A22095D0C0004A95B0 /* PBXContainerItemProxy */;
+		};
+		638932AE2095D0C0004A95B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6389328C2095D0C0004A95B0 /* LinkSquare Collector for iPad V0.9 1(SWIFT ver) */;
+			targetProxy = 638932AD2095D0C0004A95B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		638932942095D0C0004A95B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				638932952095D0C0004A95B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		638932992095D0C0004A95B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6389329A2095D0C0004A95B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		638932B32095D0C0004A95B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Users/kanghyunmoon/Downloads/boost_1_67_0/boost/compute;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LIBRARY_SEARCH_PATHS = /Users/kanghyunmoon/Downloads/boost_1_67_0/boost/compute;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INCLUDE_PATHS = /Users/kanghyunmoon/Downloads/boost_1_67_0/boost/compute;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SYSTEM_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		638932B42095D0C0004A95B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Users/kanghyunmoon/Downloads/boost_1_67_0/boost/compute;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LIBRARY_SEARCH_PATHS = /Users/kanghyunmoon/Downloads/boost_1_67_0/boost/compute;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = /Users/kanghyunmoon/Downloads/boost_1_67_0/boost/compute;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYSTEM_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		638932B62095D0C0004A95B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B944AC87A2D99E3D0C3CBBF5 /* Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver).debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_HEADERS_RUN_UNIFDEF = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = Y4FAD85V5D;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LSCollector_iOS_documents_20180131/Build/Universal",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = /Users/kanghyunmoon/Downloads/boost_1_67_0;
+				INFOPLIST_FILE = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)/Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = binary;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = /Users/kanghyunmoon/Downloads/boost_1_67_0/stage/lib;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "kookmin.LinkSquare-Collector-for-iPad-V0-9-1-SWIFT-ver-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
+				REEXPORTED_LIBRARY_PATHS = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/LSCollector_iOS_documents_20180131/Build/Universal";
+			};
+			name = Debug;
+		};
+		638932B72095D0C0004A95B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42C8A8CA1DE64F9E6D1E83EB /* Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver).release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_HEADERS_RUN_UNIFDEF = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = Y4FAD85V5D;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LSCollector_iOS_documents_20180131/Build/Universal",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = /Users/kanghyunmoon/Downloads/boost_1_67_0;
+				INFOPLIST_FILE = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)/Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = binary;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = /Users/kanghyunmoon/Downloads/boost_1_67_0/stage/lib;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "kookmin.LinkSquare-Collector-for-iPad-V0-9-1-SWIFT-ver-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
+				REEXPORTED_LIBRARY_PATHS = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/LSCollector_iOS_documents_20180131/Build/Universal";
+			};
+			name = Release;
+		};
+		638932B92095D0C0004A95B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A2A9A874F310542B5F01612 /* Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LSCollector_iOS_documents_20180131/Build/Universal",
+				);
+				INFOPLIST_FILE = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kookmin.LinkSquare-Collector-for-iPad-V0-9-1-SWIFT-ver-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkSquare Collector for iPad V0.9 1(SWIFT ver).app/LinkSquare Collector for iPad V0.9 1(SWIFT ver)";
+			};
+			name = Debug;
+		};
+		638932BA2095D0C0004A95B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC0069285C260CA02D52746E /* Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LSCollector_iOS_documents_20180131/Build/Universal",
+				);
+				INFOPLIST_FILE = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kookmin.LinkSquare-Collector-for-iPad-V0-9-1-SWIFT-ver-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkSquare Collector for iPad V0.9 1(SWIFT ver).app/LinkSquare Collector for iPad V0.9 1(SWIFT ver)";
+			};
+			name = Release;
+		};
+		638932BC2095D0C0004A95B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 388F16E38AE37E876616655C /* Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LSCollector_iOS_documents_20180131/Build/Universal",
+				);
+				INFOPLIST_FILE = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kookmin.LinkSquare-Collector-for-iPad-V0-9-1-SWIFT-ver-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)";
+			};
+			name = Debug;
+		};
+		638932BD2095D0C0004A95B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3548B346CDE09FEE3066207C /* Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LSCollector_iOS_documents_20180131/Build/Universal",
+				);
+				INFOPLIST_FILE = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kookmin.LinkSquare-Collector-for-iPad-V0-9-1-SWIFT-ver-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LinkSquare Collector for iPad V0.9 1(SWIFT ver)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		638932882095D0C0004A95B0 /* Build configuration list for PBXProject "LinkSquare Collector for iPad V0.9 1(SWIFT ver)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638932B32095D0C0004A95B0 /* Debug */,
+				638932B42095D0C0004A95B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		638932B52095D0C0004A95B0 /* Build configuration list for PBXNativeTarget "LinkSquare Collector for iPad V0.9 1(SWIFT ver)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638932B62095D0C0004A95B0 /* Debug */,
+				638932B72095D0C0004A95B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		638932B82095D0C0004A95B0 /* Build configuration list for PBXNativeTarget "LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638932B92095D0C0004A95B0 /* Debug */,
+				638932BA2095D0C0004A95B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		638932BB2095D0C0004A95B0 /* Build configuration list for PBXNativeTarget "LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638932BC2095D0C0004A95B0 /* Debug */,
+				638932BD2095D0C0004A95B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 638932852095D0C0004A95B0 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_UITests {
+  umbrella header "Pods-LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

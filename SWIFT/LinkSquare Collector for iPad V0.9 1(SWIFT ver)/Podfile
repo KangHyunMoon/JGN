@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'LinkSquare Collector for iPad V0.9 1(SWIFT ver)' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'SwiftChart', '~> 1.0'
+
+  # Pods for LinkSquare Collector for iPad V0.9 1(SWIFT ver)
+
+  target 'LinkSquare Collector for iPad V0.9 1(SWIFT ver)Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'LinkSquare Collector for iPad V0.9 1(SWIFT ver)UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

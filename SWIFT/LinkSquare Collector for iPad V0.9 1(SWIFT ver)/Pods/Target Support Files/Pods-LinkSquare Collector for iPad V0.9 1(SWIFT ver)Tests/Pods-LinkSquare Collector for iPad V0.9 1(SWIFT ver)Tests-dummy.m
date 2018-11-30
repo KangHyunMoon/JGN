@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_Tests : NSObject
+@end
+@implementation PodsDummy_Pods_LinkSquare_Collector_for_iPad_V0_9_1_SWIFT_ver_Tests
+@end

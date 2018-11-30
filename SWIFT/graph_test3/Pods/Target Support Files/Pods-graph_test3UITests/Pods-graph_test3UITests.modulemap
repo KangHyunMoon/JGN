@@ -1,0 +1,6 @@
+framework module Pods_graph_test3UITests {
+  umbrella header "Pods-graph_test3UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
